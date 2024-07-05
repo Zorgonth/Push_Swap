@@ -1,0 +1,1 @@
+Push_swap is a sorting algorithm implemented in C for sorting stacks of integers. It utilizes a combination of stack manipulation operations such as swapping, pushing, rotating, and reverse rotating to efficiently sort the elements in ascending order.
