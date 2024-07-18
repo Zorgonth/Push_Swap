@@ -14,3 +14,18 @@ Push_swap is a program meant to sort a stack of intergers using only two stacks 
 ## Algorithms
 For Smaller amount of intergers (between 1 and 5 numbers) i have a simple checker to choose the best way to sort them. And also i have used Int Arrays which are reallocated everytime if needed to be memory friendly.
 But for larger amounts of intergers(more than 5 numbers) I have used Rdix sortring algorithm. `Radix` sort is an efficient algorithm to sort non-negative integers with time complexity O (n).
+
+## USAGE
+As Always all you need to compile to code is to using the following command:
+```
+$make
+```
+Then to use it all you have to do is run it as such:
+```
+./push_swap "1 2 3 4 5 6 7"
+```
+Or you can input it as such:
+```
+./push_swap 1 3 5 2 4 4
+```
+Or you can use a combination of both inputs. Duplicates aren't allowed and Of course if the input is already sorted the program will state that!.
